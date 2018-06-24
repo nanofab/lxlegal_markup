@@ -1,88 +1,85 @@
 * {
-    font-family: 'Open Sans', sans-serif;   
+  font-family: 'Open Sans', sans-serif;
 }
-a:link { text-decoration: none;
+
+a:link {
+  text-decoration: none;
 }
 
 header#main-head {
-    background-color: #760000;
-    color: #fff;
-    height: auto;
+  background-color: #760000;
+  color: #fff;
+  height: auto;
 }
 
 nav#main-menu ul {
-    list-style: none;
-    display: block;
-    float: right;
-    margin: 0;
+  list-style: none;
+  display: block;
+  float: right;
+  margin: 0;
 }
 
 nav#main-menu ul li {
-    float: left;
+  float: left;
 }
 
 nav#main-menu ul li a {
-    padding: 10px 15px;
-    text-transform:uppercase;
-    color: inherit;
-    display: block;
+  padding: 10px 15px;
+  text-transform: uppercase;
+  color: inherit;
+  display: block;
 }
 
 a#logo p {
-    font-family:'Playfair Display', serif;
-    font-size: 30px;
-    Color: #fff;
-    text-transform: uppercase;
-    margin: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  Color: #fff;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 footer#main-footer {
-    background-color: #1a1a1a;
-    color: #fff;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  background-color: #1a1a1a;
+  color: #fff;
 }
 
 footer#main-footer p {
-    padding: 10px;
-    text-transform:uppercase;
-    margin: 0;
-    font-size: 12px;
-    text-align: center;
+  padding: 10px;
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 12px;
+  text-align: center;
 }
 
 footer#main-footer p a {
-    color: #fff
-    }
-
-
-main#content h1 {
-    font-family:'Playfair Display', serif;    
-    text-align: center;
-    padding: 30px 0px 0px 0px;
-    color: #760000;
+  color: #fff
 }
 
-main#content h5 {   
-    font-family: 'Open Sans light', sans-serif;   
-    text-align: center;
-    color: #1a1a1a;
+main#content h1 {
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  padding: 30px 0px 0px 0px;
+  color: #760000;
+}
+
+main#content h5 {
+  font-family: 'Open Sans light', sans-serif;
+  text-align: center;
+  color: #1a1a1a;
 }
 
 main#content hr {
-    width: 50px;
-    size: 5px;
-    color: #760000;
+  width: 50px;
+  size: 5px;
+  color: #760000;
 }
 
-main#content ul{
-    list-style: none;
-    width: 50%;
-    display: block;
-    }
-main#content ul li#para1{
-    float: right;
-    }
+main#content ul {
+  list-style: none;
+  width: 50%;
+  display: block;
+}
 
+main#content ul li#para1 {
+  float: right;
+}
