@@ -63,7 +63,8 @@ main#content h1 {
 }
 
 main#content h5 {
-    font-family: 'Open Sans light', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
     text-align: center;
     color: #1a1a1a;
 }
@@ -76,4 +77,8 @@ main#content hr {
 main#content p {
     font-size: 14px;
     line-height: 21px;
+}
+
+main#content p strong {
+    font-weight: bold;
 }
