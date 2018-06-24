@@ -70,11 +70,10 @@ main#content h5 {
 
 main#content hr {
     width: 70px;
-    border: 2px solid #760000;
+    border: 1px solid #760000;
 }
 
-main#content ul {
-    list-style: none;
-    width: 50%;
-    display: block;
+main#content p {
+    font-size: 14px;
+    line-height: 21px;
 }
