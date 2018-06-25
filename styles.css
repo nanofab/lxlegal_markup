@@ -70,7 +70,7 @@ main#content h5 {
 }
 
 main#content hr {
-    width: 70px;
+    width: 50px;
     border: 1px solid #760000;
 }
 
@@ -81,4 +81,24 @@ main#content p {
 
 main#content p strong {
     font-weight: bold;
+}
+
+main#content #practice-areas {
+    background-color: #760000
+}
+
+main#content #practice-areas h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding-top: 10px;
+    color:#fff;
+}
+
+main#content #practice-areas hr {
+    width: 50px;
+    border: 1px solid #fff;
+}
+
+main#content #practice-areas p {
+    color: #fff;
 }
