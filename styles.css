@@ -62,6 +62,13 @@ main#content h1 {
     color: #760000;
 }
 
+main#content h2 {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    padding-top: 10px;
+    color: #000000;
+}
+
 main#content h5 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -72,6 +79,7 @@ main#content h5 {
 main#content hr {
     width: 50px;
     border: 1px solid #760000;
+    margin-bottom: 30px;
 }
 
 main#content p {
