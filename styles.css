@@ -69,7 +69,7 @@ main#content h2 {
     color: #000000;
 }
 
-main#content h5 {
+main#content #welcome h5 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     text-align: center;
@@ -112,7 +112,26 @@ main#content #practice-areas p {
     border-bottom: 1px solid #fff
 }
 
+main#content #ourpeople{
+}
 
+main#content #ourpeople img{
+    padding-bottom: 30px;
+}
+
+main#content #ourpeople h5{
+    font-family: 'Open Sans ', sans-serif;
+    font-weight: 600;
+    color: #1a1a1a;
+    margin:0;
+}
+
+main#content #ourpeople h6{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #760000;
+    padding-bottom: 10px;
+}
 
 main#content #whymauritius {
     background: url(./images/whymauritius.jpg);
