@@ -28,6 +28,12 @@ nav#main-menu ul li a {
     text-transform: uppercase;
     color: inherit;
     display: block;
+    font-size: 15px;
+    transition: all ease-in-out .5s;
+}
+
+nav#main-menu ul li a:hover {
+    font-weight: bold;
 }
 
 a#logo p {
