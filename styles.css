@@ -111,3 +111,30 @@ main#content #practice-areas p {
     color: #fff;
     border-bottom: 1px solid #fff
 }
+
+
+
+main#content #whymauritius {
+    background: url(./images/whymauritius.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+}
+
+main#content #whymauritius hr {
+    width: 50px;
+    border: 1px solid #fff;
+    margin-bottom: 30px;
+}
+
+main#content #whymauritius h2 {
+    color:#fff;
+}
+
+main#content #whymauritius p {
+    color:#fff;
+}
+
+main#content #whymauritius ul li {
+    color:#fff;
+}
