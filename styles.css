@@ -206,3 +206,21 @@ main#content #contact p {
 main#content #contact p strong {
     font-weight: 500;
 }
+
+main#content #contact button {
+    text-transform: uppercase;
+    font-family: 'Open Sans bold', sans-serif;
+    font-weight: 500;
+    background-color: #760000;
+    color: #fff;
+    transition-duration: 0.4s;
+    letter-spacing: 0.5px;
+}
+
+main#content #contact button:hover {
+    text-transform: uppercase;
+    font-family: 'Open Sans bold', sans-serif;
+    font-weight: 500;
+    background-color: #1a1a1a;
+    color: #fff;
+}
