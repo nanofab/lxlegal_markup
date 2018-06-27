@@ -118,28 +118,42 @@ main#content #practice-areas p {
     border-bottom: 1px solid #fff
 }
 
-main#content #ourpeople img{
-    padding-bottom: 30px;
+main#content #ourpeople .col-4 img {
+    margin-bottom: 15px;
 }
 
-main#content #ourpeople h5{
+main#content #ourpeople .col-4 h5 {
     font-family: 'Open Sans ', sans-serif;
     font-weight: 600;
     color: #1a1a1a;
     margin:0;
 }
 
-main#content #ourpeople h6{
+main#content #ourpeople .col-4 h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     color: #760000;
     padding-bottom: 10px;
 }
 
+main#content #ourpeople .col-4 p {
+    font-size: 13px;
+}
+
+main#content #ourpeople .col-4 a {
+    font-size: 13px;
+    font-style: italic;
+    color: #760000;
+}
+
+main#content #ourpeople .col-4 a:hover {
+    text-decoration: underline;
+    text-decoration-color: #760000;
+}
+
 main#content #whymauritius {
-    background: url(./images/whymauritius.jpg);
+    background: url('./images/whymauritius.jpg');
     background-repeat: no-repeat;
-    background-size: auto;
     background-size: cover;
 }
 
