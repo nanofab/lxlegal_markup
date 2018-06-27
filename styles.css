@@ -174,3 +174,20 @@ main#content #whymauritius p {
 main#content #whymauritius ul li {
     color:#fff;
 }
+
+main#content #contact label{
+    color: #760000;
+    font-size: 14px;
+}
+
+main#content #contact #form .form-group{
+    font-size: 14px;
+}
+
+main#content #contact #form .form-control{
+    font-size: 14px;
+}
+
+main#content #contact iframe{
+    padding-bottom: 20px;
+}
