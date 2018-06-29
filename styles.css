@@ -184,7 +184,7 @@ main#content #contact #form .form-group {
     font-size: 14px;
 }
 
-main#content #contact #form .form-control {
+main#content #contact #form .form-control{
     font-size: 14px;
 }
 
@@ -223,4 +223,9 @@ main#content #contact button:hover {
     font-weight: 500;
     background-color: #1a1a1a;
     color: #fff;
+}
+
+main#content #carousel .carousel-inner .carousel-item h1 {
+    font-family: 'Playfair Display', serif;
+    color:#760000 ;
 }
