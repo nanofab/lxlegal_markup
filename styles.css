@@ -12,6 +12,18 @@ header#main-head {
     height: auto;
 }
 
+header#main-head #main-carousel .carousel-caption h1 {
+    font-family: 'Playfair Display', serif;
+    font-size:50px;
+}
+
+header#main-head #main-carousel .carousel-caption p {
+    text-transform: uppercase;
+    font-size:18px;
+    font-weight: 300;
+    vertical-align: middle;
+    }
+
 nav#main-menu ul {
     list-style: none;
     display: block;
@@ -223,18 +235,4 @@ main#content #contact button {
         font-weight: 500;
         background-color: #1a1a1a;
         color: #fff;
-    }
-
-#carousel h1 {
-    font-family: 'Playfair Display', serif;
-    font-size:50px;
-}
-
-    #carousel .carousel-caption p {
-        text-transform: uppercase;
-        font-size:18px;
-        font-weight: 300;
-        left: auto;
-        top: 50%;
-        transform: translateY(-50%);
     }
