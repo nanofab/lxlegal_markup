@@ -1,5 +1,6 @@
 * {
     font-family: 'Open Sans', sans-serif;
+    transition: all ease-in-out .2s;
 }
 
 a:link {
@@ -9,33 +10,79 @@ a:link {
 header#main-head {
     background-color: #760000;
     color: #fff;
+    position: relative;
+    overflow: auto;
     height: auto;
+}
+
+header#second-head {
+    background-color: #760000;
+    color: #fff;
+    overflow: auto;
+    height: auto;
+    display: none;
+}
+
+header#second-head.fixed-top {
+    animation: slideDown .3s forwards;
+    position: fixed;
+    top: 0;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-50px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+header#second-head.fixed-top + main#content {
+    padding-top: 60px;
+}
+
+header#main-head #header-section {
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+header#second-head #header-section2 {
+    width: 100%;
+}
+
+header#main-head #main-carousel .carousel-caption {
+    height: auto;
+    bottom: 0;
+    top: 40%;
+    vertical-align: middle;
 }
 
 header#main-head #main-carousel .carousel-caption h1 {
     font-family: 'Playfair Display', serif;
-    font-size:50px;
+    font-size: 45px;
 }
 
 header#main-head #main-carousel .carousel-caption p {
     text-transform: uppercase;
-    font-size:18px;
+    font-size: 18px;
     font-weight: 300;
     vertical-align: middle;
-    }
+}
 
-nav#main-menu ul {
+nav#main-menu ul, nav#second-menu ul {
     list-style: none;
     display: block;
     float: right;
     margin: 0;
 }
 
-nav#main-menu ul li {
+nav#main-menu ul li, nav#second-menu ul li {
     float: left;
 }
 
-nav#main-menu ul li a {
+nav#main-menu ul li a, nav#second-menu ul li a {
     padding: 10px 15px;
     text-transform: uppercase;
     color: inherit;
@@ -44,7 +91,7 @@ nav#main-menu ul li a {
     transition: all ease-in-out .5s;
 }
 
-nav#main-menu ul li a:hover {
+nav#main-menu ul li a:hover, nav#second-menu ul li a:hover {
     font-weight: bold;
 }
 
@@ -229,10 +276,10 @@ main#content #contact button {
     letter-spacing: 0.5px;
 }
 
-    main#content #contact button:hover {
-        text-transform: uppercase;
-        font-family: 'Open Sans bold', sans-serif;
-        font-weight: 500;
-        background-color: #1a1a1a;
-        color: #fff;
-    }
+main#content #contact button:hover {
+    text-transform: uppercase;
+    font-family: 'Open Sans bold', sans-serif;
+    font-weight: 500;
+    background-color: #1a1a1a;
+    color: #fff;
+}

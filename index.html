@@ -20,16 +20,14 @@
   <div id="wrapper" class="container-fluid">
     <header id="main-head" class="row">
       <!-- Carousel -->
-      <div id="main-carousel" class="carousel-slide" data-ride="carousel">
-
+      <div id="main-carousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
-          <li data-target="#main-carousel" data-slide-to="0" class="active"> 1</li>
-          <li data-target="#main-carousel" data-slide-to="1"> 2 </li>
-          <li data-target="#main-carousel" data-slide-to="2">3 </li>
+          <li data-target="#main-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#main-carousel" data-slide-to="1"></li>
+          <li data-target="#main-carousel" data-slide-to="2"></li>
         </ol>
-
         <div class="carousel-inner">
-          <div class="carousel-item active ">
+          <div class="carousel-item active">
             <img class="d-block w-100" src="./images/slider1-lxlegal.jpg" alt="First slide">
             <div class="carousel-caption d-none d-md-block">
               <h1>LX Legal & Tax</h1>
@@ -54,27 +52,57 @@
         </div>
       </div>
       <!-- Logo & Menu-->
-      <div class="container">
-        <div class="row">
-          <a href="#" id="logo" class="d-block col-3">
-            <p>Lx Legal</p>
-          </a>
-          <nav id="main-menu" class="col-9">
-            <ul>
-              <li>
-                <a href="#">Welcome</a>
-              </li>
-              <li>
-                <a href="#">Our People</a>
-              </li>
-              <li>
-                <a href="#">Why Mauritius</a>
-              </li>
-              <li>
-                <a href="#">Contact us</a>
-              </li>
-            </ul>
-          </nav>
+      <div id="header-section">
+        <div class="container">
+          <div class="row">
+            <a href="#" id="logo" class="d-block col-3">
+              <p>Lx Legal</p>
+            </a>
+            <nav id="main-menu" class="col-9">
+              <ul>
+                <li>
+                  <a href="#">Welcome</a>
+                </li>
+                <li>
+                  <a href="#">Our People</a>
+                </li>
+                <li>
+                  <a href="#">Why Mauritius</a>
+                </li>
+                <li>
+                  <a href="#">Contact us</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Second Header -->
+    <header id="second-head" class="row">
+      <div id="header-section2">
+        <div class="container">
+          <div class="row">
+            <a href="#" id="logo" class="d-block col-3">
+              <p>Lx Legal</p>
+            </a>
+            <nav id="second-menu" class="col-9">
+              <ul>
+                <li>
+                  <a href="#">Welcome</a>
+                </li>
+                <li>
+                  <a href="#">Our People</a>
+                </li>
+                <li>
+                  <a href="#">Why Mauritius</a>
+                </li>
+                <li>
+                  <a href="#">Contact us</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
     </header>
@@ -428,6 +456,32 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
     crossorigin="anonymous"></script>
   <script src="./js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.carousel').carousel({
+        pause: false
+      });
+
+      $(window).scroll(function(){
+        var sticky = $('#second-head'),
+            scroll = $(window).scrollTop(),
+            carousel = $('.carousel'),
+            bottom = carousel.position().top + carousel.outerHeight(true); // passing "true" will also include the top and bottom margin
+
+        if (scroll >= bottom) {
+          sticky.show('fast');
+          sticky.addClass('fixed-top');
+        } else {
+          sticky.hide('fast');
+          sticky.removeClass('fixed-top');
+
+        }
+      });
+    });
+    
+
+    
+  </script>
 </body>
 
 </html>
