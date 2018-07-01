@@ -24,7 +24,7 @@ header#second-head {
 }
 
 header#second-head.fixed-top {
-    animation: slideDown .3s forwards;
+    animation: slideDown .2s forwards;
     position: fixed;
     top: 0;
 }
@@ -48,8 +48,20 @@ header#main-head #header-section {
     top: 0;
 }
 
+header#main-head #header-section .container .row {
+    padding-top: 20px;
+}
+
 header#second-head #header-section2 {
     width: 100%;
+}
+
+header#main-head #main-carousel .carousel-indicators li.active {
+    background-color: #760000;
+}
+
+header#main-head #main-carousel .carousel-indicators li {
+    background-color: #fff;
 }
 
 header#main-head #main-carousel .carousel-caption {
@@ -69,6 +81,16 @@ header#main-head #main-carousel .carousel-caption p {
     font-size: 18px;
     font-weight: 300;
     vertical-align: middle;
+}
+
+nav#main-menu h5 {
+    margin: 0;
+    font-size: 1.8em;
+    font-weight: 800;
+}
+
+nav#main-menu h5 span {
+    font-weight: 300;
 }
 
 nav#main-menu ul, nav#second-menu ul {
