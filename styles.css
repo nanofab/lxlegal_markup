@@ -233,6 +233,26 @@ main#content #ourpeople .col-4 a:hover {
     text-decoration-color: #760000;
 }
 
+main#content #ourpeople .modal-footer button {
+    font-size:13px;
+}
+main#content #ourpeople .modal-footer button:hover {
+    background-color: #1a1a1a;
+}
+
+main#content #ourpeople #read-more {
+    font-size:13px;
+    box-shadow: none;
+	border-color: white;
+    background-color: #760000;
+}
+
+main#content #ourpeople #read-more:hover {
+    background-color: #000000;
+    transition: all ease-in-out .3s;
+}
+
+
 main#content #whymauritius {
     background: url('./images/whymauritius.jpg');
     background-repeat: no-repeat;
